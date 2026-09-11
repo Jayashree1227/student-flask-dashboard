@@ -9,7 +9,7 @@ app = Flask(__name__)
 # LOAD DATA
 # ============================================================
 
-file_path = r"C:\Users\91805\student_data_cleaned.xlsx"
+file_path = "student_data_cleaned.xlsx"
 
 df = pd.read_excel(file_path)
 
